@@ -10,12 +10,12 @@ $body-bg:                 $light-gray;
 $font-size-base: 1rem;
 
 // Colors
-$body-color: $gray;
-$primary:    $blue;
+$body-color: $black;
+$primary:    rgb(87, 66, 206);
 $success:    $green;
-$info:       $yellow;
-$danger:     $red;
-$warning:    $orange;
+$info:       rgb(255, 255, 209);
+$danger:     pink;
+$warning:    rgb(255, 255, 209);
 
 // Buttons & inputs' radius
 $border-radius:    2px;

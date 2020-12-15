@@ -1,0 +1,18 @@
+.button {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $violet;
+  transition: background 0.3s ease;
+  font-family: "Roboto";
+  &:hover {
+    color: rgb(207, 193, 232);
+    text-decoration: none;
+  }
+}
+
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}

@@ -1,0 +1,37 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  height: 370px;
+  // width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 2px;
+}
+
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}

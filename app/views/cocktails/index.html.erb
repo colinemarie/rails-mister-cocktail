@@ -1,11 +1,14 @@
-<h1>Cocktails </h1>
-<ul>
-  <% @cocktails.each do |cocktail| %>
-    <li>
-      <%= link_to cocktail.name, cocktail_path(cocktail) %>
-    </li>
-  <% end %>
-</ul>
-<p>
-  <%= link_to 'Add a new cocktail', new_cocktail_path %>
-</p>
+
+<div class="container">
+  <div class="cards">
+    <% @cocktails.each do |cocktail| %>
+      <%= link_to cocktail_path(cocktail) do %>
+        <div class="card" style="background-image: url(<%= cocktail.image_url %>)">
+        <%= cocktail.name %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
+
