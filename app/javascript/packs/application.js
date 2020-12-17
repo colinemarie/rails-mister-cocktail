@@ -9,6 +9,8 @@ require("@rails/activestorage").start()
 require("channels")
 
 import 'bootstrap';
+// import { toggleForm } from '../component/form';
+
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
@@ -17,3 +19,17 @@ import 'bootstrap';
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+
+// // const toggleForm = () => {
+//   const button = document.querySelector('#formdisplay');
+//   const display = document.querySelector('.font-weight-bold')
+// //   button.addEventListener('click', (event) => {
+// //     console.log('coucou');
+// //   })
+// //
+
+// button.addEventListener('click', (event) => {
+//   event.preventDefault();
+//   event.currentTarget.innerText = 'Hold still...';
+//   })

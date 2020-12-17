@@ -18,12 +18,15 @@ end
 
 puts 'ingredients done'
 
-# puts 'adding cocktail'
+puts 'adding cocktail'
 
-# amaretto = Cocktail.new(name: 'Amaretto Sour')
-# mojito = Cocktail.new(name: 'Mojito')
-# stgermain = Cocktail.new(name: 'St Germain spritz')
-# americano = Cocktail.new(name: 'Americano')
-# dark = Cocktail.new(name: 'Dark and Stormy')
-# gimlet = Cocktail.new(name: 'Amaretto Sour')
+amaretto = Cocktail.new(name: 'Amaretto Sour')
+mojito = Cocktail.new(name: 'Mojito')
+stgermain = Cocktail.new(name: 'St Germain spritz')
+americano = Cocktail.new(name: 'Americano')
+dark = Cocktail.new(name: 'Dark and Stormy')
 # # article.photo.attach(io: file, filename: 'nes.png', content_type: 'image/png')
+file = URI.open('https://res.cloudinary.com/dw3inosxv/image/upload/v1608066251/darkandstomry_w6sq9n.jpg')
+gimlet = Cocktail.new(name: 'Gimlet')
+gimlet.photo.attach(io: file, filename: 'gimlet.png', content_type: 'image/png')
+gimlet.save
