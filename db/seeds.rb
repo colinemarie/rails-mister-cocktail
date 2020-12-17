@@ -18,12 +18,12 @@ end
 
 puts 'ingredients done'
 
-puts 'adding cocktail'
+# puts 'adding cocktail'
 
-amaretto = Cocktail.new(name: 'Amaretto Sour')
-mojito = Cocktail.new(name: 'Mojito')
-stgermain = Cocktail.new(name: 'St Germain spritz')
-americano = Cocktail.new(name: 'Americano')
-dark = Cocktail.new(name: 'Dark and Stormy')
-gimlet = Cocktail.new(name: 'Amaretto Sour')
-# article.photo.attach(io: file, filename: 'nes.png', content_type: 'image/png')
+# amaretto = Cocktail.new(name: 'Amaretto Sour')
+# mojito = Cocktail.new(name: 'Mojito')
+# stgermain = Cocktail.new(name: 'St Germain spritz')
+# americano = Cocktail.new(name: 'Americano')
+# dark = Cocktail.new(name: 'Dark and Stormy')
+# gimlet = Cocktail.new(name: 'Amaretto Sour')
+# # article.photo.attach(io: file, filename: 'nes.png', content_type: 'image/png')
